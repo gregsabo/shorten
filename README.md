@@ -5,7 +5,7 @@ An example URL shortener using Python and Redis.
 
 This is intended to be a demonstration of a URL shortener which can be reasonably implemented on a whiteboard in under an hour.
 
-More information in [the blog post](http://www.doesnotcompute.biz/programming-interview-code-a-url-shortener-on-a-whiteboard-in-5-steps)
+More information in [the blog post](http://www.doesnotcompute.biz/programming-interview-code-a-url-shortener-on-a-whiteboard-in-5-steps).
 
 Running
 =========
