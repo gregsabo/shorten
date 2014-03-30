@@ -18,13 +18,13 @@ mkvirtualenv shorten
 
 If you don't have the `mkvirtualenv` command then you probably need to install [Virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html) and try again.
 
-Next, make sure you're in the repo's root directory and install the requirements:
+Next, make sure you're in the repo's root directory and your new virtualenv is activated. Install the python requirements:
 
 ```
 pip install -r requirements.txt
 ```
 
-Now make sure you have [Redis](http://redis.io/) installed and running. For example, via [homebrew](http://brew.sh/):
+Now make sure you have [Redis](http://redis.io/) installed and running. For example, via [Homebrew](http://brew.sh/):
 
 ```
 brew install redis
@@ -39,7 +39,7 @@ python iteration1.py
 
 You can then see the output by visiting [localhost:5000](http://localhost:5000).
 
-Additionally, you can run the tests for a file with nose like so:
+Additionally, you can run the tests for a file with [Nose](https://nose.readthedocs.org/en/latest/) like so:
 
 ```
 nosetests iteration5.py
