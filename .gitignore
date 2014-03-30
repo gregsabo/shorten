@@ -1,0 +1,79 @@
+*.py[co]
+*.pyc
+*~
+*.ropeproject
+venv
+*.sw*
+*.coverage
+
+*flymake.py
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+*.*~
+
+# Patch For Virtual Environments
+patch_local_paths.py
+
+# Custom settings
+styles_cdn_urls.py
+*/*/local/custom_settings.py
+*/*/prod/custom_settings.py
+*/*/qa/custom_settings.py
+*/*/*/config/local/custom_settings.py
+*/*/*/config/prod/custom_settings.py
+*/*/*/config/qa/custom_settings.py
+custom_settings.py
+
+# OS Stuff
+.DS_Store
+
+# SASS
+.sass-cache
+.sass-cache/
+.sass-cache/*
+config.rb
+
+# Selenium
+*/selenium/chromedriver.log
+
+# Weird backup files of some sort
+\#*#
+.\#*
+
+local/*
+python_migrations.py
+geoip-city.dat
+geoip-organization.dat
+sandbox
+
+.idea
+.idea/
+.idea/*
+.idea/*/*
+.idea/*/*/*
+
+node_modules*
